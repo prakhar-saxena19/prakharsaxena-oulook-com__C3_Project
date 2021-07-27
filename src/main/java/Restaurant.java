@@ -71,16 +71,16 @@ public class Restaurant {
     }
 
     //added by Prakhar for TDD exercise
-    public int getItemsPrice(List<String> itemsList) {
-        int totalPrice=0;
-        //assuming that all the items in the list exist in the menu
-        for(String itemStr:itemsList){
-            for(Item item: menu) {
-                if(itemStr.equals(item.getName())){
-                    totalPrice = totalPrice + item.getPrice();
-                }
-            }
-        }
-        return totalPrice;
-    }
+//    public int getItemsPrice(List<String> itemsList) {
+//        int totalPrice=0;
+//        //assuming that all the items in the list exist in the menu
+//        for(String itemStr:itemsList){
+//            for(Item item: menu) {
+//                if(itemStr.equals(item.getName())){
+//                    totalPrice = totalPrice + item.getPrice();
+//                }
+//            }
+//        }
+//        return totalPrice;
+//    }
 }
